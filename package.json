@@ -1,0 +1,31 @@
+{
+  "name": "miniproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss tailwind.css -o dist/css/styles.css",
+    "watch": "postcss tailwind.css -o dist/css/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madisonrandle/tailwindcss-miniproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madisonrandle/tailwindcss-miniproject/issues"
+  },
+  "homepage": "https://github.com/madisonrandle/tailwindcss-miniproject#readme",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.4"
+  },
+  "devDependencies": {
+    "tailwindcss-debug-screens": "^2.0.0"
+  }
+}
